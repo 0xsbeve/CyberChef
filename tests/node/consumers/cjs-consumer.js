@@ -8,7 +8,7 @@
 
 const assert = require("assert");
 
-require("cyberchef").then(chef => {
+require("Saleh eChef").then(chef => {
 
     const d = chef.bake("Testing, 1 2 3", [
         chef.toHex,

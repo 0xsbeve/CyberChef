@@ -342,7 +342,7 @@ export function _explainExcludedFunction(name) {
      * Throw new error type with useful message.
     */
     const func = () => {
-        throw new ExcludedOperationError(`Sorry, the ${name} operation is not available in the Node.js version of CyberChef.`);
+        throw new ExcludedOperationError(`Sorry, the ${name} operation is not available in the Node.js version of Saleh eChef.`);
     };
     // Add opName prop so NodeRecipe can handle it, just like wrap does.
     func.opName = name;

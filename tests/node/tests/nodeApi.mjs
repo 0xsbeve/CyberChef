@@ -364,7 +364,7 @@ TestRegister.addApiTests([
         assert.throws(chef.fork,
             (err) => {
                 assert(err instanceof ExcludedOperationError);
-                assert.deepEqual(err.message, "Sorry, the Fork operation is not available in the Node.js version of CyberChef.");
+                assert.deepEqual(err.message, "Sorry, the Fork operation is not available in the Node.js version of Saleh eChef.");
                 return true;
             },
             "Unexpected error type"
@@ -372,7 +372,7 @@ TestRegister.addApiTests([
         assert.throws(chef.javaScriptBeautify,
             (err) => {
                 assert(err instanceof ExcludedOperationError);
-                assert.deepEqual(err.message, "Sorry, the JavaScriptBeautify operation is not available in the Node.js version of CyberChef.");
+                assert.deepEqual(err.message, "Sorry, the JavaScriptBeautify operation is not available in the Node.js version of Saleh eChef.");
                 return true;
             },
             "Unexpected error type"

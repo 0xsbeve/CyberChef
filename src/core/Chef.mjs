@@ -10,7 +10,7 @@ import log from "loglevel";
 import { isWorkerEnvironment } from "./Utils.mjs";
 
 /**
- * The main controller for CyberChef.
+ * The main controller for Saleh eChef.
  */
 class Chef {
 
@@ -84,11 +84,11 @@ class Chef {
 
     /**
      * When a browser tab is unfocused and the browser has to run lots of dynamic content in other tabs,
-     * it swaps out the memory for that tab. If the CyberChef tab has been unfocused for more than a
+     * it swaps out the memory for that tab. If the Saleh eChef tab has been unfocused for more than a
      * minute, we run a silent bake which will force the browser to load and cache all the relevant
      * JavaScript code needed to do a real bake.
      *
-     * This will stop baking taking a long time when the CyberChef browser tab has been unfocused for a
+     * This will stop baking taking a long time when the Saleh eChef browser tab has been unfocused for a
      * long time and the browser has swapped out all its memory.
      *
      * The output will not be modified (hence "silent" bake).

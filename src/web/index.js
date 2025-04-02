@@ -15,14 +15,14 @@ import "bootstrap-colorpicker";
 import moment from "moment-timezone";
 import * as CanvasComponents from "../core/lib/CanvasComponents.mjs";
 
-// CyberChef
+// Saleh eChef
 import App from "./App.mjs";
 import Categories from "../core/config/Categories.json" assert {type: "json"};
 import OperationConfig from "../core/config/OperationConfig.json" assert {type: "json"};
 
 
 /**
- * Main function used to build the CyberChef web app.
+ * Main function used to build the Saleh eChef web app.
  */
 function main() {
     const defaultFavourites = [

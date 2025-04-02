@@ -1,6 +1,6 @@
 /*-------------------------------------------------------------------------------------------------------------------------
 Created by Damian Recoskie (https://github.com/Recoskie/X86-64-Disassembler-JS) 
-  & exported for CyberChef by Matt [me@mitt.dev]
+  & exported for Saleh eChef by Matt [me@mitt.dev]
 ---------------------------------------------------------------------------------------------------------------------------
 MIT License
 
@@ -5745,7 +5745,7 @@ export function LDisassemble()
 ////////////////////////////////////////////////////////////////////////////////////////////////
 
 /*
- * The following code has been added to expose public methods for use in CyberChef
+ * The following code has been added to expose public methods for use in Saleh eChef
  */
 
 export function setBitMode (val) {

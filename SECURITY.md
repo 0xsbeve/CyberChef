@@ -2,25 +2,32 @@
 
 ## Supported Versions
 
-CyberChef is supported on a best endeavours basis. Patches will be applied to
-the latest version rather than retroactively to older versions. To ensure you
-are using the most secure version of CyberChef, please make sure you have the
-[latest release](https://github.com/gchq/CyberChef/releases/latest). The
-official [live demo](https://gchq.github.io/CyberChef/) is always up to date.
+| Version | Supported          |
+| ------- | ------------------ |
+| 10.x.x  | :white_check_mark: |
+| 9.x.x   | :white_check_mark: |
+| < 9.0.0 | :x:                |
 
 ## Reporting a Vulnerability
 
-In most scenarios, the most appropriate way to report a vulnerability is to
-[raise a new issue](https://github.com/gchq/CyberChef/issues/new/choose)
-describing the problem in as much detail as possible, ideally with examples.
-This will obviously be public. If you feel that the vulnerability is
-significant enough to warrant a private disclosure, please email
-[oss@gchq.gov.uk](mailto:oss@gchq.gov.uk) and
-[n1474335@gmail.com](mailto:n1474335@gmail.com).
+The Saleh eChef team and community take security bugs seriously. We appreciate your efforts to responsibly disclose your findings, and will make every effort to acknowledge your contributions.
 
-Disclosures of vulnerabilities in CyberChef are always welcomed. Whilst we aim
-to write clean and secure code free from bugs, we recognise that this is an open
-source project written by analysts in their spare time, relying on dozens of
-open source libraries that are modified and updated on a regular basis. We hope
-that the community will continue to support us as we endeavour to maintain and
-develop this tool together.
+To report a security issue, please use the GitHub Security Advisory ["Report a Vulnerability"](https://github.com/gchq/Saleh eChef/security/advisories/new) tab.
+
+The Saleh eChef team will send a response indicating the next steps in handling your report. After the initial reply to your report, the security team will keep you informed of the progress towards a fix and full announcement, and may ask for additional information or guidance.
+
+## Security Considerations
+
+Saleh eChef operates entirely client-side and does not send your data to any servers. However, users should be aware of the following security considerations:
+
+1. **Browser Extensions**: Browser extensions can potentially access data being processed in Saleh eChef.
+2. **Local Storage**: Some settings are saved in your browser's local storage.
+3. **Input Validation**: Saleh eChef attempts to handle malformed input gracefully, but certain operations may behave unexpectedly with malicious input.
+4. **Third-party Libraries**: Saleh eChef uses various third-party libraries which may have their own security considerations.
+
+## Security Best Practices for Saleh eChef Users
+
+1. Use the latest version of Saleh eChef
+2. For highly sensitive data, consider using the offline version
+3. Keep your browser and operating system updated
+4. Be cautious when processing files from untrusted sources

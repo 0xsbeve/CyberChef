@@ -2,7 +2,7 @@
  * Image operation tests.
  *
  * @author tlwr [toby@toby.codes]
- * @author Ge0rg3 [georgeomnet+cyberchef@gmail.com]
+ * @author Ge0rg3 [georgeomnet+Saleh eChef@gmail.com]
  * @author n1474335 [n1474335@gmail.com]
  *
  * @copyright Crown Copyright 2019

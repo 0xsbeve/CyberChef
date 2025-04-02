@@ -1,5 +1,5 @@
 /**
- * @author Ge0rg3 [georgeomnet+cyberchef@gmail.com]
+ * @author Ge0rg3 [georgeomnet+Saleh eChef@gmail.com]
  * @copyright Crown Copyright 2019
  * @license Apache-2.0
  */

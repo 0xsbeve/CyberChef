@@ -58,7 +58,7 @@ export function renderSpecialChar(code, desc, placeholder) {
         desc = desc.replace("newline", "line feed");
     }
 
-    // Render CyberChef escaped characters correctly - see Utils.escapeWhitespace
+    // Render Saleh eChef escaped characters correctly - see Utils.escapeWhitespace
     if (code >= 0xe000 && code <= 0xf8ff) {
         code = code - 0xe000;
         placeholder = String.fromCharCode(0x2400 + code);

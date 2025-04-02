@@ -61,7 +61,7 @@ TestRegister.addTests([
     },
     {
         name: "YARA Match: compile warnings",
-        input: "CyberChef Yara",
+        input: "Saleh eChef Yara",
         expectedOutput: "Warning on line 5: string \"$s\" may slow down scanning\n" +
             "Warning on line 12: string \"$s\" may slow down scanning\n" +
             "Input matches rule \"a\".\n" +
@@ -75,7 +75,7 @@ TestRegister.addTests([
     },
     {
         name: "YARA Match: console messages",
-        input: "CyberChef Yara",
+        input: "Saleh eChef Yara",
         expectedOutput: "log rule a\n" +
             "log rule b: int8(0)=0x43\n" +
             "Input matches rule \"a\".\n" +

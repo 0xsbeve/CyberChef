@@ -26,7 +26,7 @@ class Colossus extends Operation {
         super();
         this.name = "Colossus";
         this.module = "Bletchley";
-        this.description = "Colossus is the name of the world's first electronic computer. Ten Colossi were designed by Tommy Flowers and built at the Post Office Research Labs at Dollis Hill in 1943 during World War 2. They assisted with the breaking of the German Lorenz cipher attachment, a machine created to encipher communications between Hitler and his generals on the front lines.<br><br>To learn more, Virtual Colossus, an online, browser based simulation of a Colossus computer is available at <a href='https://virtualcolossus.co.uk' target='_blank'>virtualcolossus.co.uk</a>.<br><br>A more detailed description of this operation can be found <a href='https://github.com/gchq/CyberChef/wiki/Colossus' target='_blank'>here</a>.";
+        this.description = "Colossus is the name of the world's first electronic computer. Ten Colossi were designed by Tommy Flowers and built at the Post Office Research Labs at Dollis Hill in 1943 during World War 2. They assisted with the breaking of the German Lorenz cipher attachment, a machine created to encipher communications between Hitler and his generals on the front lines.<br><br>To learn more, Virtual Colossus, an online, browser based simulation of a Colossus computer is available at <a href='https://virtualcolossus.co.uk' target='_blank'>virtualcolossus.co.uk</a>.<br><br>A more detailed description of this operation can be found <a href='https://github.com/gchq/Saleh eChef/wiki/Colossus' target='_blank'>here</a>.";
         this.infoURL = "https://wikipedia.org/wiki/Colossus_computer";
         this.inputType = "string";
         this.outputType = "JSON";

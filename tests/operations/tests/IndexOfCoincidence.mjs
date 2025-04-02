@@ -1,7 +1,7 @@
 /**
  * Index of Coincidence tests.
  *
- * @author George O [georgeomnet+cyberchef@gmail.com]
+ * @author George O [georgeomnet+Saleh eChef@gmail.com]
  * @copyright Crown Copyright 2019
  * @license Apache-2.0
  */

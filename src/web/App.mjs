@@ -15,7 +15,7 @@ import cptable from "codepage";
 
 
 /**
- * HTML view for CyberChef responsible for building the web page and dealing with all user
+ * HTML view for Saleh eChef responsible for building the web page and dealing with all user
  * interactions.
  */
 class App {
@@ -648,9 +648,9 @@ class App {
         else if (prev[1] > 0) prev[1]--;
         else prev[0]--;
 
-        // const compareURL = `https://github.com/gchq/CyberChef/compare/v${prev.join(".")}...v${PKG_VERSION}`;
+        // const compareURL = `https://github.com/gchq/Saleh eChef/compare/v${prev.join(".")}...v${PKG_VERSION}`;
 
-        let compileInfo = `<a href='https://github.com/gchq/CyberChef/blob/master/CHANGELOG.md'>Last build: ${timeSinceCompile.substr(0, 1).toUpperCase() + timeSinceCompile.substr(1)} ago</a>`;
+        let compileInfo = `<a href='https://github.com/gchq/Saleh eChef/blob/master/CHANGELOG.md'>Last build: ${timeSinceCompile.substr(0, 1).toUpperCase() + timeSinceCompile.substr(1)} ago</a>`;
 
         if (window.compileMessage !== "") {
             compileInfo += " - " + window.compileMessage;
@@ -660,7 +660,7 @@ class App {
         notice.innerHTML = compileInfo;
         notice.setAttribute("title", Utils.stripHtmlTags(window.compileMessage));
         notice.setAttribute("data-help-title", "Last build");
-        notice.setAttribute("data-help", "This live version of CyberChef is updated whenever new commits are added to the master branch of the CyberChef repository. It represents the latest, most up-to-date build of CyberChef.");
+        notice.setAttribute("data-help", "This live version of Saleh eChef is updated whenever new commits are added to the master branch of the Saleh eChef repository. It represents the latest, most up-to-date build of Saleh eChef.");
     }
 
 
@@ -786,7 +786,7 @@ class App {
     updateURL(includeInput, input=null, changeUrl=true) {
         // Set title
         const recipeConfig = this.getRecipeConfig();
-        let title = "CyberChef";
+        let title = "Saleh eChef";
         if (recipeConfig.length === 1) {
             title = `${recipeConfig[0].op} - ${title}`;
         } else if (recipeConfig.length > 1) {

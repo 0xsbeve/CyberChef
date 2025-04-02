@@ -192,7 +192,7 @@ class Utils {
 
     /**
      * Returns a string with whitespace represented as special characters from the
-     * Unicode Private Use Area, which CyberChef will display as control characters.
+     * Unicode Private Use Area, which Saleh eChef will display as control characters.
      * Private Use Area characters are in the range U+E000..U+F8FF.
      * https://en.wikipedia.org/wiki/Private_Use_Areas
      * @param {string} str
@@ -836,7 +836,7 @@ class Utils {
      * https://www.owasp.org/index.php/XSS_(Cross_Site_Scripting)_Prevention_Cheat_Sheet
      *
      * Null bytes are a special case and are converted to a character from the Unicode
-     * Private Use Area, which CyberChef will display as a control character picture.
+     * Private Use Area, which Saleh eChef will display as a control character picture.
      * This is done due to null bytes not being rendered or stored correctly in HTML
      * DOM building.
      *
@@ -925,7 +925,7 @@ class Utils {
      * Meaning that the list of characters that need not be percent-encoded are alphanumeric plus:
      * -._~!$&'()*+,;=:@/?
      *
-     * & and = are still escaped as they are used to serialise the key-value pairs in CyberChef
+     * & and = are still escaped as they are used to serialise the key-value pairs in Saleh eChef
      * fragments. + is also escaped so as to prevent it being decoded to a space.
      *
      * @param {string} str
@@ -964,8 +964,8 @@ class Utils {
     /**
      * Generates a "pretty" recipe format from a recipeConfig object.
      *
-     * "Pretty" CyberChef recipe formats are designed to be included in the fragment (#) or query (?)
-     * parts of the URL. They can also be loaded into CyberChef through the 'Load' interface. In order
+     * "Pretty" Saleh eChef recipe formats are designed to be included in the fragment (#) or query (?)
+     * parts of the URL. They can also be loaded into Saleh eChef through the 'Load' interface. In order
      * to make this format as readable as possible, various special characters are used unescaped. This
      * reduces the amount of percent-encoding included in the URL which is typically difficult to read
      * and substantially increases the overall length. These characteristics can be quite off-putting

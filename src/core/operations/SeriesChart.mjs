@@ -72,7 +72,7 @@ class SeriesChart extends Operation {
             fieldDelimiter = Utils.charRep(args[1]),
             xLabel = args[2],
             pipRadius = args[3],
-            // Escape HTML from all colours to prevent reflected XSS. See https://github.com/gchq/CyberChef/issues/1265
+            // Escape HTML from all colours to prevent reflected XSS. See https://github.com/gchq/Saleh eChef/issues/1265
             seriesColours = args[4].split(",").map((colour) => {
                 return Utils.escapeHtml(colour);
             }),

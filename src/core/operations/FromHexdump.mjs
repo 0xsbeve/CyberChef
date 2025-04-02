@@ -52,7 +52,7 @@ class FromHexdump extends Operation {
                 output.push(line[i]);
             }
         }
-        // Is this a CyberChef hexdump or is it from a different tool?
+        // Is this a Saleh eChef hexdump or is it from a different tool?
         const width = input.indexOf("\n");
         const w = (width - 13) / 4;
         // w should be the specified width of the hexdump and therefore a round number

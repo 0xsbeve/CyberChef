@@ -146,7 +146,7 @@ function isUrl(string) {
 /**
  * Transform a json object into html representation
  *
- * Adapted for CyberChef by @n1474335 from jQuery json-viewer
+ * Adapted for Saleh eChef by @n1474335 from jQuery json-viewer
  * @author Alexandre Bodelot <alexandre.bodelot@gmail.com>
  * @link https://github.com/abodelot/jquery.json-viewer
  * @license MIT

@@ -38,7 +38,7 @@ const schema = {
             message: "Operation names should consist of letters, numbers or the following symbols: _-/()."
         },
         module: {
-            description: `Modules are used to group operations that rely on large libraries. Any operation that is not in the Default module will be loaded in dynamically when it is first called. All operations in the same module will also be loaded at this time. This system prevents the CyberChef web app from getting too bloated and taking a long time to load initially.
+            description: `Modules are used to group operations that rely on large libraries. Any operation that is not in the Default module will be loaded in dynamically when it is first called. All operations in the same module will also be loaded at this time. This system prevents the Saleh eChef web app from getting too bloated and taking a long time to load initially.
 If your operation does not rely on a library, just leave this blank and it will be added to the Default module. If it relies on the same library as other operations, enter the name of the module those operations are in. If it relies on a new large library, enter a new module name (capitalise the first letter).`,
             example: "Crypto",
             prompt: "Module",
@@ -69,7 +69,7 @@ If your operation does not rely on a library, just leave this blank and it will 
             message: `The input type should be one of: ${ioTypes.join(", ")}.`
         },
         outputType: {
-            description: `The output type tells CyberChef what sort of data you are returning from your operation. Check the project wiki for a full description of each type. The options are: ${ioTypes.join(", ")}.`,
+            description: `The output type tells Saleh eChef what sort of data you are returning from your operation. Check the project wiki for a full description of each type. The options are: ${ioTypes.join(", ")}.`,
             example: "string",
             prompt: "Output type",
             type: "string",
@@ -224,7 +224,7 @@ export default ${moduleName};
 2. Write your operation code.
 3. Write tests in ${colors.green("tests/operations/tests/")}
 4. Run ${colors.cyan("npm run lint")} and ${colors.cyan("npm run test")}
-5. Submit a Pull Request to get your operation added to the official CyberChef repository.`);
+5. Submit a Pull Request to get your operation added to the official Saleh eChef repository.`);
 
 });
 

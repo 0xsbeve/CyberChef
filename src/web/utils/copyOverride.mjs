@@ -4,7 +4,7 @@
  * @license Apache-2.0
  *
  * In order to render whitespace characters as control character pictures in the output, even
- * when they are the designated line separator, CyberChef sometimes chooses to represent them
+ * when they are the designated line separator, Saleh eChef sometimes chooses to represent them
  * internally using the Unicode Private Use Area (https://en.wikipedia.org/wiki/Private_Use_Areas).
  * See `Utils.escapeWhitespace()` for an example of this.
  *

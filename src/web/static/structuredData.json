@@ -2,21 +2,21 @@
     {
         "@context": "http://schema.org",
         "@type": "Organization",
-        "url": "https://gchq.github.io/CyberChef/",
-        "logo": "https://gchq.github.io/CyberChef/images/cyberchef-128x128.png",
+        "url": "https://gchq.github.io/Saleh eChef/",
+        "logo": "https://gchq.github.io/Saleh eChef/images/Saleh eChef-128x128.png",
         "sameAs": [
-            "https://github.com/gchq/CyberChef",
-            "https://www.npmjs.com/package/cyberchef"
+            "https://github.com/gchq/Saleh eChef",
+            "https://www.npmjs.com/package/Saleh eChef"
         ]
     },
     {
         "@context": "http://schema.org",
         "@type": "WebSite",
-        "url": "https://gchq.github.io/CyberChef/",
-        "name": "CyberChef",
+        "url": "https://gchq.github.io/Saleh eChef/",
+        "name": "Saleh eChef",
         "potentialAction": {
             "@type": "SearchAction",
-            "target": "https://gchq.github.io/CyberChef/?op={operation_search_term}",
+            "target": "https://gchq.github.io/Saleh eChef/?op={operation_search_term}",
             "query-input": "required name=operation_search_term"
         }
     }

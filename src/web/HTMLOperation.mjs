@@ -19,8 +19,8 @@ class HTMLOperation {
      *
      * @param {string} name - The name of the operation.
      * @param {Object} config - The configuration object for this operation.
-     * @param {App} app - The main view object for CyberChef.
-     * @param {Manager} manager - The CyberChef event manager.
+     * @param {App} app - The main view object for Saleh eChef.
+     * @param {Manager} manager - The Saleh eChef event manager.
      */
     constructor(name, config, app, manager) {
         this.app         = app;

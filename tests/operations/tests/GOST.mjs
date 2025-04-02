@@ -3,7 +3,7 @@
  *
  * The GOST library already includes a range of tests for the correctness of
  * the algorithms. These tests are intended only to confirm that the library
- * has been correctly integrated into CyberChef.
+ * has been correctly integrated into Saleh eChef.
  *
  * @author n1474335 [n1474335@gmail.com]
  *

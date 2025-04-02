@@ -106,9 +106,9 @@ const getFeature = function() {
                 }
 
                 if (feature.id.length > 10) {
-                    commitIDs.push(`[${id}]: https://github.com/gchq/CyberChef/commit/${feature.id}`);
+                    commitIDs.push(`[${id}]: https://github.com/gchq/Saleh eChef/commit/${feature.id}`);
                 } else {
-                    prIDs.push(`[#${feature.id}]: https://github.com/gchq/CyberChef/pull/${feature.id}`);
+                    prIDs.push(`[#${feature.id}]: https://github.com/gchq/Saleh eChef/pull/${feature.id}`);
                 }
             });
 
@@ -116,7 +116,7 @@ const getFeature = function() {
             changelogData = changelogData.replace(/## Details\n\n/, "## Details\n\n" + message + "\n");
 
             // Tag
-            const newTag = `[${newVersion[0]}.${newVersion[1]}.${newVersion[2]}]: https://github.com/gchq/CyberChef/releases/tag/v${newVersion[0]}.${newVersion[1]}.${newVersion[2]}\n`;
+            const newTag = `[${newVersion[0]}.${newVersion[1]}.${newVersion[2]}]: https://github.com/gchq/Saleh eChef/releases/tag/v${newVersion[0]}.${newVersion[1]}.${newVersion[2]}\n`;
             changelogData = changelogData.replace(/\n\n(\[\d+\.\d+\.\d+\]: https)/, "\n\n" + newTag + "$1");
 
             // Author
@@ -126,12 +126,12 @@ const getFeature = function() {
 
             // Commit IDs
             commitIDs.forEach(commitID => {
-                changelogData = changelogData.replace(/(\n\[[^\].]+\]: https:\/\/github.com\/gchq\/CyberChef\/commit\/[^\n]+\n)\n/, "$1" + commitID + "\n\n");
+                changelogData = changelogData.replace(/(\n\[[^\].]+\]: https:\/\/github.com\/gchq\/Saleh eChef\/commit\/[^\n]+\n)\n/, "$1" + commitID + "\n\n");
             });
 
             // PR IDs
             prIDs.forEach(prID => {
-                changelogData = changelogData.replace(/(\n\[#[^\]]+\]: https:\/\/github.com\/gchq\/CyberChef\/pull\/[^\n]+\n)\n*$/, "$1" + prID + "\n\n");
+                changelogData = changelogData.replace(/(\n\[#[^\]]+\]: https:\/\/github.com\/gchq\/Saleh eChef\/pull\/[^\n]+\n)\n*$/, "$1" + prID + "\n\n");
             });
 
             fs.writeFileSync(path.join(process.cwd(), "CHANGELOG.md"), changelogData);

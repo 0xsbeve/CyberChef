@@ -4,6 +4,6 @@ COPY . .
 RUN npm ci
 RUN npm run build
 
-FROM nginx:1.25-alpine3.18 AS cyberchef
+FROM nginx:1.25-alpine3.18 AS Saleh eChef
 
 COPY --from=build ./build/prod /usr/share/nginx/html/

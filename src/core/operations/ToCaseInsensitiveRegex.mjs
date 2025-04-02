@@ -1,5 +1,5 @@
 /**
- * @author masq [github.cyberchef@masq.cc]
+ * @author masq [github.Saleh eChef@masq.cc]
  * @author n1073645
  * @copyright Crown Copyright 2018
  * @license Apache-2.0
