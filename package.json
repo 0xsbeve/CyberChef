@@ -3,7 +3,7 @@
   "version": "10.19.5",
   "description": "The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis",
   "main": "src/node/index.mjs",
-  "type": "module",f",
+  "type": "module",
   "exports": {
     ".": {
       "import": "./src/node/index.mjs"
